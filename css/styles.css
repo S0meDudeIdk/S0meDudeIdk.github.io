@@ -1,0 +1,174 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 100px 0 50px 0; 
+    background-color: #fffffc;
+    color: #000000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3 {
+    color: #000000;
+}
+
+/* Header */
+header {
+    background-color: #000000;
+    color: #beb7a4;
+    padding: 1px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header h1 {
+    color: #beb7a4;
+}
+
+/* Navigation */
+nav {
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #beb7a4;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    color: #fffffc;
+}
+
+nav a:hover {
+    background: #beb7a4;
+    color: #000000;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Main Content Styles */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+section {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #beb7a4;
+    box-shadow: 2px 2px 12px #beb7a4;
+    background-color: #fffffc;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    flex: 1;
+}
+
+.image {
+    margin-left: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: #beb7a4;
+    text-align: center;
+    padding: 1px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Form */
+form {
+    background: #fffffc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #beb7a4;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #beb7a4;
+    border-radius: 5px;
+    background-color: #fffffc; 
+    color: #000000;
+}
+
+form input[type="submit"] {
+    background: #000000;
+    color: #beb7a4;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: #beb7a4; 
+    color: #000000;
+}
+
+/* Utility */
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.follow-me {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.follow-me a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.follow-me a:hover {
+    color: #beb7a4;
+}
